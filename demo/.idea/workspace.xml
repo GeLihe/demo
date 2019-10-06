@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a691b10-e052-4efc-b1c8-488160a7c133" name="Default Changelist" comment="初始化工程">
-      <change afterPath="$PROJECT_DIR$/demo-web/src/main/java/com/gelihe/web/Controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-web/src/main/resources/templates/user/loginPage.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-web/src/main/resources/templates/user/registerPage.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-dao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-dao/src/main/resources/mybatis-generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-dao/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-web/src/main/java/com/gelihe/web/Controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-web/src/main/java/com/gelihe/web/Controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="8a691b10-e052-4efc-b1c8-488160a7c133" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/demo-dao/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-dao/src/main/resources/generatorConfig.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo-dao/src/main/resources/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="57" column="61" lean-forward="true" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
+            <state relative-caret-position="168">
+              <caret line="41" column="63" lean-forward="true" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -225,12 +214,6 @@
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="demo-base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
@@ -427,7 +410,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570157404219</updated>
       <workItem from="1570157423529" duration="17083000" />
-      <workItem from="1570278412702" duration="14388000" />
+      <workItem from="1570278412702" duration="14791000" />
     </task>
     <task id="LOCAL-00001" summary="初始化工程">
       <created>1570274257332</created>
@@ -436,11 +419,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570274257333</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增登录注册页，修复pom">
+      <created>1570351995721</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570351995722</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31471000" />
+    <option name="totallyTimeSpent" value="31874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -457,7 +447,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.64447594" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.9390935" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.23512748" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23512748" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -523,7 +513,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化工程" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化工程" />
+    <MESSAGE value="新增登录注册页，修复pom" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增登录注册页，修复pom" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -715,10 +706,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo-dao/src/main/java/com/gelihe/dao/bean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo-dao/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="57" column="61" lean-forward="true" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
+        <state relative-caret-position="168">
+          <caret line="41" column="63" lean-forward="true" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
         </state>
       </provider>
     </entry>
