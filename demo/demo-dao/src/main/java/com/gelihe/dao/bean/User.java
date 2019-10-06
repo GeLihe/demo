@@ -1,7 +1,7 @@
 package com.gelihe.dao.bean;
 
 public class User {
-    private Integer userId;
+    private String userId;
 
     private String userName;
 
@@ -9,7 +9,7 @@ public class User {
 
     private String userEmail;
 
-    public User(Integer userId, String userName, String userPassword, String userEmail) {
+    public User(String userId, String userName, String userPassword, String userEmail) {
         this.userId = userId;
         this.userName = userName;
         this.userPassword = userPassword;
@@ -20,12 +20,12 @@ public class User {
         super();
     }
 
-    public Integer getUserId() {
+    public String getUserId() {
         return userId;
     }
 
-    public void setUserId(Integer userId) {
-        this.userId = userId;
+    public void setUserId(String userId) {
+        this.userId = userId == null ? null : userId.trim();
     }
 
     public String getUserName() {

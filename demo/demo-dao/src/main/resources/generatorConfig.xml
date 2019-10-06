@@ -26,6 +26,7 @@
                 connectionURL="${jdbc.connectionURL}"
                 userId="${jdbc.userId}"
                 password="${jdbc.password}">
+            <property name="useInformationSchema" value="true"/>
         </jdbcConnection>
 
 

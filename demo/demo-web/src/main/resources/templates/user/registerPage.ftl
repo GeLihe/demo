@@ -70,22 +70,23 @@ debugger;
     var inputPassword = $("#inputPassword").val();
     var reInputPassword = $("#reInputPassword").val();
     if(inputEmail == null || inputEmail.trim() == "" || inputPassword == null || inputPassword.trim() == ""|| reInputPassword == null || reInputPassword.trim() == "" ){
-        $.ajax({
-             type: "post",
-             url: "/login?action=register",
-             async:false,
-             data: {
-                 "email": inputEmail,
-                 "password": inputPassword
-             },
-             success: function (data, textStatus) {
-                 alert(data);
-             },
-             error: function (XMLHttpRequest, textStatus, errorThrown) {
-               alert("请求在连接过程中出现错误..\n" + errorThrown);
-           }
-       });
+        return;
     }
+    $.ajax({
+                 type: "post",
+                 url: "/login?action=register",
+                 async:false,
+                 data: {
+                     "email": inputEmail,
+                     "password": inputPassword
+                 },
+                 success: function (data, textStatus) {
+                     alert(data);
+                 },
+                 error: function (XMLHttpRequest, textStatus, errorThrown) {
+                   alert("请求在连接过程中出现错误..\n" + errorThrown);
+               }
+           });
 
 }
 </script>
