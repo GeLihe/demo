@@ -22,7 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="demo" options="-parameters" />
+      <module name="demo" options="" />
       <module name="demo-base" options="-parameters" />
       <module name="demo-dao" options="-parameters" />
       <module name="demo-service" options="-parameters" />

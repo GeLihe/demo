@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.gelihe</groupId>
+        <groupId>com.gelihe.demo</groupId>
         <artifactId>demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath/>
     </parent>
-    <groupId>com.gelihe</groupId>
+    <groupId>com.gelihe.demo</groupId>
     <artifactId>demo-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>demo-service</name>
@@ -31,7 +31,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.gelihe</groupId>
+            <groupId>com.gelihe.demo</groupId>
             <artifactId>demo-dao</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
@@ -39,10 +39,6 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
         </plugins>
     </build>
 

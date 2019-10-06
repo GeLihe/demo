@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class IndexController {
 
     @RequestMapping
-    public String toDemoPage(Model model) {
-        model.addAttribute("title", "首页");
+    public String toPage(Model model) {
         return "/index";
     }
 }
